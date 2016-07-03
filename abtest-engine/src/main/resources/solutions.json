@@ -1,0 +1,50 @@
+[
+	{
+		"solutionId": "s1",
+		"flowRate": 50,
+		"jarPath": "file:D:\\ec_workspace\\abtest-parent\\abtest-test\\target\\abtest-test-1.0.jar",
+		"solutionClass": "com.liuxiang.abtest.test.TestSolution",
+		"buckets": [
+			{
+				"bucketId": "b1",
+				"flowRate": 50,
+				"btsParameters": {
+					"p1": "a",
+					"p2": "b"
+				}
+			},
+			{
+				"bucketId": "b2",
+				"flowRate": 50,
+				"btsParameters": {
+					"p1": "c",
+					"p2": "d"
+				}
+			}
+		]
+	},
+	{
+		"solutionId": "s2",
+		"flowRate": 50,
+		"jarPath": "file:D:\\ec_workspace\\abtest-parent\\abtest-test\\target\\abtest-test-1.0.jar",
+		"solutionClass": "com.liuxiang.abtest.test.TestSolution",
+		"buckets": [
+			{
+				"bucketId": "b1",
+				"flowRate": 50,
+				"btsParameters": {
+					"p3": "e",
+					"p4": "f"
+				}
+			},
+			{
+				"bucketId": "b2",
+				"flowRate": 50,
+				"btsParameters": {
+					"p3": "g",
+					"b4": "h"
+				}
+			}
+		]
+	}
+]
